@@ -1,0 +1,28 @@
+@layer theme, base, components, utilities;
+
+/* Сброс стилей */
+@layer base {
+  * {
+    @apply m-0 p-0 box-border;
+  }
+  body {
+    @apply bg-gray-100 text-gray-900 font-sans;
+  }
+  button,
+  input,
+  select {
+    @apply outline-none;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold;
+  }
+  ul,
+  ol {
+    @apply list-none;
+  }
+}
